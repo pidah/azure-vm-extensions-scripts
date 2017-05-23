@@ -41,7 +41,7 @@ sudo mkdir -p /etc/ansible/facts.d
 sudo chmod 755 /etc/ansible/facts.d
 for tool in docker docker-compose
 do
-  ${tool} | sed 's/,//g' | awk '{print "{\"version\": \""$3"\", \"build\": \""$5"\"}"}' | sudo tee /etc/ansible/facts.d/${tool}.fact
+  ${tool} --version | sed 's/,//g' | awk '{print "{\"version\": \""$3"\", \"build\": \""$5"\"}"}' | sudo tee /etc/ansible/facts.d/${tool}.fact
 done
 
 which docker && which docker-compose && exit 0 || exit 1
