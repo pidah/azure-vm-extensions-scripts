@@ -1,6 +1,4 @@
-# azure-vm-extensions-scripts
-
-## Description:
+# Description:
 
 This repository is using for Azure VM Extension and Custom Script Extension.
 These extentions download and execute scripts on Azure virtual machines.
