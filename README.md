@@ -10,5 +10,5 @@ Scripts can be downloaded from Azure storage or other accessible internet locati
 Unfortunately there is no auth settings in Extentions to setup it for authentication in GitHub.
 In the future it can be moved somewhere to Azure storage.
  
-## Example of calling
-[Official page] (https://docs.microsoft.com/en-us/azure/virtual-machines/linux/extensions-customscript)
+## Documentation
+[Exention doc](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/extensions-customscript)
