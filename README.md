@@ -10,5 +10,7 @@ Scripts can be downloaded from Azure storage or other accessible internet locati
 Unfortunately there is no auth settings in Extentions to setup it for authentication in GitHub.
 In the future it can be moved somewhere to Azure storage.
  
-## Documentation
+## Documentation and links
+[Example of usage](https://github.com/DigitalInnovation/terraform-platform-modules/blob/master/azure/vm_extensions/docker/main.tf#L26)
 [Exention doc](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/extensions-customscript)
+
